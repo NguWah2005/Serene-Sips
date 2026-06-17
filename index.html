@@ -16,15 +16,16 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header id="header">
       <h1>Welcome to Serene Sips</h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
+      <a href="#header" >Explore Our Menu</a>
     </header>
 
     <!-- nav -->
     <section>
       <nav>
-        <a href="">Home</a>
+        <a href="#header">Home</a>
         <a href="#menu">Menu</a>
         <a href="#about-us">About Us</a>
         <a href="#contact-us">Contact</a>
@@ -32,13 +33,127 @@
     </section>
 
     <!-- our-menu -->
-    <section>
-      <h2 id="menu">Our Menu</h2>
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div id="coffee">
+        <h3>Coffee Selections</h3>
+        <div id="card-container1">
+        <div class="card">
+        <img src="image/Americano.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Americano</h4>
+          <p class="card-text">
+            - Strong and black coffee.<br />
+            Perfect for the bold coffee enthusiast.<br />
+            <span class="price">$2.50</span>
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Americano.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Americano</h4>
+          <p class="card-text">
+            - Strong and black coffee.<br />
+            Perfect for the bold coffee enthusiast.<br />
+            <span class="price">$2.50</span>
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Americano.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Americano</h4>
+          <p class="card-text">
+            - Strong and black coffee.<br />
+            Perfect for the bold coffee enthusiast.<br />
+            <span class="price">$2.50</span>
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Americano.jpg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Americano</h4>
+          <p class="card-text">
+            - Strong and black coffee.<br />
+            Perfect for the bold coffee enthusiast.<br />
+            <span class="price">$2.50</span>
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+      </div>
+
+      <div id="Snacks">
+        <h3>Delicious Snacks</h3>
+        <div id="card-container2">
+          
+      <div class="card">
+        <img src="image/Classic Croissant.png" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Classic Croissant</h4>
+          <p>
+            - Light, flaky, and buttery.<br />
+            A timeless delight.<br />
+            $2.50
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Classic Croissant.png" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Classic Croissant</h4>
+          <p>
+            - Light, flaky, and buttery.<br />
+            A timeless delight.<br />
+            $2.50
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Classic Croissant.png" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Classic Croissant</h4>
+          <p>
+            - Light, flaky, and buttery.<br />
+            A timeless delight.<br />
+            $2.50
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/Classic Croissant.png" alt="" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">Classic Croissant</h4>
+          <p>
+            - Light, flaky, and buttery.<br />
+            A timeless delight.<br />
+            $2.50
+          </p>
+          <a href="#" class="btn-order">Order</a>
+        </div>
+      </div>
+    </div>
+        
+      
     </section>
 
     <!-- about-us -->
-    <section>
-      <h2 id="about-us">About Us</h2>
+    <section id="about-us">
+      <h2>About Us</h2>
       <p>Welcome to Serene Sips Café, where every cup tells a story!</p>
       <p>
         Founded in 2020, our coffee journey began with a passion for creating a
@@ -65,30 +180,30 @@
     </section>
 
     <!-- contact-us -->
-    <section>
-      <h2 id="contact-us">Contact Us</h2>
+    <section id="contact-us">
+      <h2>Contact Us</h2>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
         feedback, or special requests.
       </p>
       <form>
         <div>
-          <label for="">Your Name</label>
-          <input type="text" />
+          <label for="" class="form-label">Your Name</label>
+          <input type="text" class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Email</label>
-          <input type="email" />
+          <label for="" class="form-label">Your Email</label>
+          <input type="email" class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Message</label>
-          <textarea type="text" name="" id=""></textarea>
+          <label for="" class="form-label">Your Message</label>
+          <textarea type="text" name="" id="" class="form-control"></textarea>
         </div>
 
         <div>
-          <input class="btn" type="submit" value="Send Message" />
+          <input class="btn-submit" type="submit" value="Send Message" />
         </div>
       </form>
     </section>
@@ -96,6 +211,8 @@
     <!-- footer -->
     <footer>
       <p>copyright © 2024. All rights reserved.</p>
+    <a href="#header">To Top</a>
     </footer>
+
   </body>
 </html>

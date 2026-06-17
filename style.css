@@ -1,11 +1,160 @@
 * {
   background-color: #f0e2c5;
   color: #49281a;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-h1,
-h2 {
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0;
+}
+header h1 {
   font-family: "Playfair Display SC", serif;
+  margin-bottom: 30px;
+  font-size: 3rem;
 }
-p {
+header p {
   font-family: "Lato", sans-serif;
+  margin-bottom: 55px;
+  font-size: 1.2rem;
+}
+header a {
+  border: 2px solid black;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 15px 30px;
+  border-radius: 9px;
+  font-size: 1.2rem;
+}
+nav {
+  /* border: 2px solid black; */
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+nav a {
+  background-color: #49281a;
+  color: #f0e2c5;
+  border-radius: 9px;
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 15px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+#card-container1,
+#card-container2 {
+  /* border: 3px solid black; */
+  display: flex;
+  margin: 40px 0;
+  gap: 20px;
+}
+.card {
+  border: 1px solid black;
+  width: 230px;
+  background-color: #f0e2c5;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  line-height: 1.5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.price {
+  font-style: italic;
+  font-weight: bold;
+}
+.btn-order {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #49281a;
+  color: whitesmoke;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+#menu,
+#about-us,
+#contact-us,
+footer {
+  /* border: 2px solid black; */
+  margin: 20px auto;
+  width: 80%;
+}
+#menu h2,
+#about-us h2,
+#contact-us h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+/* about-us section */
+
+#about-us p,
+#contact-us p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+  padding: 10px o;
+  text-align: justify;
+}
+form {
+  margin: 10px;
+  width: 80%;
+}
+form div {
+  /* border: 1px solid black; */
+  font-family: "Lato", sans-serif;
+  padding: 10px 0;
+}
+.form-label {
+  display: inline-block;
+
+  /* border: 1px solid black; */
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+.form-control {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: dotted;
+}
+.btn-submit {
+  color: #ffffff;
+  background-color: #49281a;
+
+  width: 200px;
+  margin-left: 160px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
 }
